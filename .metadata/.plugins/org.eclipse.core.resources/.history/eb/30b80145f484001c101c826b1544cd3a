@@ -28,7 +28,6 @@ public class Order {
 		this.tax = tax;
 		this.total = total;
 	}
-	
 	public String getCustomer() {
 		return customer;
 	}

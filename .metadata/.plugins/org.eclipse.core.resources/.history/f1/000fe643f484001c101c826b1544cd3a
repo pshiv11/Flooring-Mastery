@@ -13,22 +13,6 @@ public class Order {
 	BigDecimal laborCost;
 	BigDecimal tax;
 	BigDecimal total;
-	
-	
-	
-	public Order(int orderNumber, String customer, BigDecimal taxRate, String productType, BigDecimal area,
-			BigDecimal materialCost, BigDecimal laborCost, BigDecimal tax, BigDecimal total) {
-		this.orderNumber = orderNumber;
-		this.customer = customer;
-		this.taxRate = taxRate;
-		this.productType = productType;
-		this.area = area;
-		this.materialCost = materialCost;
-		this.laborCost = laborCost;
-		this.tax = tax;
-		this.total = total;
-	}
-	
 	public String getCustomer() {
 		return customer;
 	}

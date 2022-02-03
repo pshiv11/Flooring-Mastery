@@ -1,0 +1,17 @@
+package com.flooringmastery.main.dto;
+
+import java.math.BigDecimal;
+
+public class Order {
+
+	int orderNumber;
+	String customer;
+	BigDecimal taxRate;
+	String productType;
+	BigDecimal area;
+	BigDecimal materialCost;
+	BigDecimal laborCost;
+	BigDecimal tax;
+	BigDecimal total;
+	
+}
