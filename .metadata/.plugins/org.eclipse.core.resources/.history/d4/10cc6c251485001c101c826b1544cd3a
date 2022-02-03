@@ -18,5 +18,6 @@ public interface OrderDao {
 	List<Order> getOrdersFor(LocalDate date);
 	
 	List<Order> getAllOrders();
-		
+	
+	
 }
