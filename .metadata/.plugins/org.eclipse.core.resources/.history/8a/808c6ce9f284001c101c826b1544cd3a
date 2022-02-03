@@ -1,0 +1,29 @@
+package com.flooringmastery.main.dao;
+
+import java.math.BigDecimal;
+import java.util.List;
+
+import com.flooringmastery.main.dto.Product;
+
+public interface ProductDao {
+
+	BigDecimal getCostPerSquareFoot(int ProductId);
+	
+	BigDecimal getLaborCostPerSquareFoot(int ProductId);
+	
+	List<Product> getAllProducts();
+	
+	Product addProduct(int productId, Product product);
+	
+	Product removeProduct(int productId);
+	
+	Product editProduct(int productId);
+	
+	
+	/*
+	 * We will also add private methods in out Impl class to marshall and unmarshall product data
+	 * from a text file
+	 */
+	
+	
+}

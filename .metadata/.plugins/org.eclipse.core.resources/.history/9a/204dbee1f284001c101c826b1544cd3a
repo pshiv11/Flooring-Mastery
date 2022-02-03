@@ -1,0 +1,20 @@
+package com.flooringmastery.main.dto;
+
+import java.math.BigDecimal;
+
+public class Product {
+	int productId;
+	String productType;
+	BigDecimal costPerSquareFoot;
+	BigDecimal LaborcostPerSquareFoot;
+	
+	public Product(int productId, String productType, BigDecimal costPerSquareFoot, BigDecimal laborcostPerSquareFoot) {
+		this.productId = productId;
+		this.productType = productType;
+		this.costPerSquareFoot = costPerSquareFoot;
+		LaborcostPerSquareFoot = laborcostPerSquareFoot;
+	}
+	
+	
+	
+}

@@ -1,0 +1,17 @@
+package com.flooringmastery.main.dao;
+
+import java.math.BigDecimal;
+import java.util.List;
+
+import com.flooringmastery.main.dto.Product;
+
+public interface ProductDao {
+
+	BigDecimal getCostPerSquareFoot(int ProductId);
+	
+	BigDecimal getLaborCostPerSquareFoot(int ProductId);
+	
+	List<Product> getAllProducts();
+	
+	
+}

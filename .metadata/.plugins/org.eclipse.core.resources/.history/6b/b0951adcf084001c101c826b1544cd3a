@@ -1,0 +1,10 @@
+package com.flooringmastery.main.dao;
+
+import java.util.Map;
+
+import com.flooringmastery.main.dto.Tax;
+
+public interface TaxDao {
+
+	Map<String, Tax> taxes;
+}
